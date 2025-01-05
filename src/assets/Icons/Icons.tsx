@@ -221,5 +221,59 @@ function Diamond() {
         </svg>
     )
 }
+function ContactEmail() {
+    return (
+        <svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.333496" width="64" height="64" rx="6" fill="url(#paint0_radial_52_10162)" fillOpacity="0.25" />
+            <path d="M39.8976 22.6537L32.4138 28.4942L24.7588 22.6537V22.6553L24.768 22.6632V30.8415L32.3275 36.8082L39.8976 31.0719V22.6537Z" fill="#EA4335" />
+            <path d="M41.8623 21.233L39.897 22.6536V31.0719L46.0813 26.3237V23.4634C46.0813 23.4634 45.3307 19.3782 41.8623 21.233Z" fill="#FBBC05" />
+            <path d="M39.897 31.0719V41.9905H44.637C44.637 41.9905 45.9858 41.8516 46.0828 40.3141V26.3237L39.897 31.0719Z" fill="#34A853" />
+            <path d="M24.7662 42.0001V30.8415L24.7588 30.8336L24.7662 42.0001Z" fill="#C5221F" />
+            <path d="M24.7587 22.6551L22.8041 21.2423C19.3357 19.3875 18.5835 23.4712 18.5835 23.4712V26.3314L24.7587 30.8334V22.6551Z" fill="#C5221F" />
+            <path d="M24.7588 22.6555V30.8339L24.7662 30.8418V22.6634L24.7588 22.6555Z" fill="#C5221F" />
+            <path d="M18.5835 26.3335V40.3239C18.6791 41.863 20.0294 42.0004 20.0294 42.0004H24.7695L24.7587 30.8339L18.5835 26.3335Z" fill="#4285F4" />
+            <defs>
+                <radialGradient id="paint0_radial_52_10162" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.333496) rotate(45) scale(90.5097)">
+                    <stop stopColor="#4285F4" />
+                    <stop offset="0.359626" stopColor="#EA4335" />
+                    <stop offset="0.684867" stopColor="#FBBC05" />
+                    <stop offset="1" stopColor="#34A853" />
+                </radialGradient>
+            </defs>
+        </svg>
+    )
+}
+function ContactTg() {
+    return (
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="64" height="64" rx="6" fill="#1B92D1" fillOpacity="0.25" />
+            <path d="M45.9404 18.3711C41.5109 20.2057 22.518 28.0728 17.2703 30.2169C13.751 31.5903 15.8112 32.8781 15.8112 32.8781C15.8112 32.8781 18.8154 33.908 21.3909 34.6806C23.966 35.4531 25.3394 34.5949 25.3394 34.5949L37.4426 26.4402C41.7345 23.5217 40.7045 25.925 39.6742 26.9553C37.4426 29.1873 33.7515 32.7063 30.6612 35.5392C29.2878 36.7409 29.9744 37.7708 30.5756 38.286C32.8072 40.1745 38.902 44.0373 39.2451 44.2947C41.0584 45.5785 44.6253 47.4264 45.1678 43.5222L47.3138 30.0456C48.0007 25.4963 48.6872 21.29 48.7729 20.0883C49.0306 17.1695 45.9404 18.3711 45.9404 18.3711Z" fill="#1B92D1" />
+        </svg>
+    )
+}
+function ContactPhone() {
+    return (
+        <svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.666992" width="64" height="64" rx="6" fill="#00C853" fillOpacity="0.25" />
+            <path d="M15.7549 22.7594C15.5654 26.0593 16.1657 29.3404 17.497 32.6027C18.8282 35.865 20.773 38.7753 23.3311 41.3334C25.8893 43.8915 28.7995 45.8362 32.0617 47.1675C35.3242 48.4989 38.6051 49.0808 41.9052 48.9131L41.7866 41.4609C36.8042 41.4609 32.5513 39.6993 29.0282 36.1762C25.5052 32.653 23.7436 28.4003 23.7436 23.4178L15.7549 22.7594Z" fill="url(#paint0_linear_52_10184)" />
+            <path d="M41.9101 48.9411C46.163 48.9411 49.6106 45.4934 49.6106 41.2405C49.6106 36.9877 46.163 33.54 41.9101 33.54C37.6571 33.54 34.2095 36.9877 34.2095 41.2405C34.2095 45.4934 37.6571 48.9411 41.9101 48.9411Z" fill="url(#paint1_radial_52_10184)" />
+            <path d="M23.4286 30.46C27.6815 30.46 31.1291 27.0122 31.1291 22.7594C31.1291 18.5065 27.6815 15.0588 23.4286 15.0588C19.1757 15.0588 15.728 18.5065 15.728 22.7594C15.728 27.0122 19.1757 30.46 23.4286 30.46Z" fill="url(#paint2_radial_52_10184)" />
+            <defs>
+                <linearGradient id="paint0_linear_52_10184" x1="28.8129" y1="22.7594" x2="28.8129" y2="48.9411" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#00EE7A" />
+                    <stop offset="1" stopColor="#00C853" />
+                </linearGradient>
+                <radialGradient id="paint1_radial_52_10184" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(39.4511 36.8798) rotate(78.4769) scale(12.3094 12.3094)">
+                    <stop stopColor="#00EE7A" />
+                    <stop offset="1" stopColor="#00C853" />
+                </radialGradient>
+                <radialGradient id="paint2_radial_52_10184" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.9696 18.3986) rotate(78.4769) scale(12.3094)">
+                    <stop stopColor="#00EE7A" />
+                    <stop offset="1" stopColor="#00C853" />
+                </radialGradient>
+            </defs>
+        </svg>
+    )
+}
 
-export { GitHub, ArrorLeft, ArrorRight, Phone, Telegram, Email, Github1, Html, Css, Js, Figma, ReactIcon, Tailwind, Seo, Speed, Design, Diamond }
+export { GitHub, ArrorLeft, ArrorRight, Phone, Telegram, Email, Github1, Html, Css, Js, Figma, ReactIcon, Tailwind, Seo, Speed, Design, Diamond, ContactEmail, ContactPhone, ContactTg }
