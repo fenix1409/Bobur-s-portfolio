@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { ContactEmail, ContactPhone, ContactTg } from "../assets/Icons/Icons"
-import Navbar from "../components/Navbar"
 import React, { useState } from "react";
+import Navbar from "../components/Navbar";
 
 interface FormData {
     name: string;
