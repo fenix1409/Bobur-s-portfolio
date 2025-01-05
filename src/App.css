@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+body{
+  background-image: url('./assets/images/body-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.custom-span {
+  display: inline-block;
+  width: 112px;
+  height: 8px;
+  border-radius: 10px 0px 0px 0px;
+  background: #39965F;
+}
